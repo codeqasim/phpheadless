@@ -1,4 +1,4 @@
-# 🚀 PHP Headless CMS – The Fast, Flexible, Open-Source CMS for Modern PHP Projects
+# 🚀 PHP Headless CMS – The Fast, Flexible, Open-Source CMS
 
 > **A truly headless, API-first CMS, built with pure PHP, Tailwind CSS, Alpine.js, and MySQL.**  
 > Simple to install, easy to extend, and perfect for solo devs, agencies, or anyone building websites, apps, or digital products.
@@ -31,26 +31,6 @@ PHP Headless CMS is a real answer for the PHP community:
 
 ---
 
-## 🏗️ Project Structure
-
-php-headless-cms/
-├── app/
-│ ├── Core/ # Framework, config, DB, routing
-│ ├── Controllers/ # Admin & installer logic
-│ ├── Models/ # [For future use]
-│ ├── Services/ # [Coming soon]
-│ ├── Middleware/ # [Planned: Auth, CORS, etc.]
-│ ├── Helpers/ # Shared logic & utilities
-│ └── Views/ # Admin panel & installer screens
-├── config/ # App, DB, routes
-├── storage/ # Uploads, cache, logs, install marker
-├── public/ # index.php, assets, .htaccess
-├── vendor/ # Composer dependencies
-├── .env # Environment config (created on install)
-├── .env.example # Example env file
-└── composer.json # PHP dependencies
-
-
 **Database tables:**  
 - `users`, `content_types`, `content_entries`, `media`, `settings`  
 All major content fields use flexible JSON columns for dynamic, schema-less data.
@@ -60,7 +40,7 @@ All major content fields use flexible JSON columns for dynamic, schema-less data
 ## 🚦 Quick Start
 
 ```bash
-git clone https://github.com/yourusername/php-headless-cms.git
+git clone https://github.com/codeqasim/php-headless-cms.git
 cd php-headless-cms
 composer install
 cp .env.example .env
@@ -75,25 +55,15 @@ Path	Purpose
 
 🗺️ Roadmap
  Drag & Drop Content Type Builder
-
  Dynamic API Endpoints
-
  Admin Dashboard (Stats, Quick Actions)
-
  Media Library
-
  RESTful API with filtering, pagination, auth
-
  User management (roles & permissions, API keys)
-
  JWT Authentication (for APIs)
-
  Plugin/Extension system
-
  Content relations (link types, parent/child)
-
  Auto-generated API documentation
-
  More advanced media management (thumbnails, cropping)
 
 Want to help? Star the repo, file issues, or open PRs!
@@ -103,9 +73,7 @@ Too many PHP CMS options are heavy, legacy, or locked into frameworks you may no
 PHP Headless CMS gives you the power of headless/content APIs with the simplicity and raw speed of PHP.
 
 Build faster MVPs and real products.
-
 Ship APIs for web, mobile, or Jamstack projects—without a JavaScript backend.
-
 Open source, for the PHP community.
 
 🤝 Contributing
