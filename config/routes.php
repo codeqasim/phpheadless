@@ -4,11 +4,12 @@
 // Get the router instance from the application
 $router = $this->router;
 
+$router->get('/admin/test', 'Admin\AdminController@index');
+
 // Installation Routes
 $router->get('/install', 'Install\InstallController@index');
 $router->post('/install', 'Install\InstallController@process');
 $router->post('/install/test-connection', 'Install\InstallController@testConnection');
-
 
 // Admin Authentication Routes
 $router->get('/admin/login', 'Admin\AuthController@loginForm');

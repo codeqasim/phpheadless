@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "2e43653d7d6f5a27179c0f8e93989b03",
+    "content-hash": "9d85e732f5cd149ef63d93e5a4c03208",
     "packages": [
         {
             "name": "catfan/medoo",
@@ -81,6 +81,40 @@
                 }
             ],
             "time": "2025-03-31T07:37:23+00:00"
+        },
+        {
+            "name": "codeqasim/mailer",
+            "version": "1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/codeqasim/Mailer.git",
+                "reference": "342276cc3b61db7f1a605088b146ae782d6333b0"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/codeqasim/Mailer/zipball/342276cc3b61db7f1a605088b146ae782d6333b0",
+                "reference": "342276cc3b61db7f1a605088b146ae782d6333b0",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.4"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "CodeQasim\\Mailer\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "description": "A professional PHP email library.",
+            "support": {
+                "issues": "https://github.com/codeqasim/Mailer/issues",
+                "source": "https://github.com/codeqasim/Mailer/tree/1.0"
+            },
+            "time": "2025-01-16T21:52:46+00:00"
         },
         {
             "name": "qaxim/php-router",

@@ -22,6 +22,7 @@ return array(
     'App\\Helpers\\Response' => $baseDir . '/app/Helpers/Response.php',
     'App\\Helpers\\Session' => $baseDir . '/app/Helpers/Session.php',
     'App\\Helpers\\Settings' => $baseDir . '/app/Helpers/Settings.php',
+    'CodeQasim\\Mailer\\Mailer' => $vendorDir . '/codeqasim/mailer/src/Mailer.php',
     'Composer\\InstalledVersions' => $vendorDir . '/composer/InstalledVersions.php',
     'Medoo\\Medoo' => $vendorDir . '/catfan/medoo/src/Medoo.php',
 );

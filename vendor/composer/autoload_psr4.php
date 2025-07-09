@@ -7,5 +7,6 @@ $baseDir = dirname($vendorDir);
 
 return array(
     'Medoo\\' => array($vendorDir . '/catfan/medoo/src'),
+    'CodeQasim\\Mailer\\' => array($vendorDir . '/codeqasim/mailer/src'),
     'App\\' => array($baseDir . '/app'),
 );

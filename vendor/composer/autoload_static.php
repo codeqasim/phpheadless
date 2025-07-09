@@ -11,6 +11,10 @@ class ComposerStaticInit2e43653d7d6f5a27179c0f8e93989b03
         array (
             'Medoo\\' => 6,
         ),
+        'C' => 
+        array (
+            'CodeQasim\\Mailer\\' => 17,
+        ),
         'A' => 
         array (
             'App\\' => 4,
@@ -21,6 +25,10 @@ class ComposerStaticInit2e43653d7d6f5a27179c0f8e93989b03
         'Medoo\\' => 
         array (
             0 => __DIR__ . '/..' . '/catfan/medoo/src',
+        ),
+        'CodeQasim\\Mailer\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/codeqasim/mailer/src',
         ),
         'App\\' => 
         array (
@@ -55,6 +63,7 @@ class ComposerStaticInit2e43653d7d6f5a27179c0f8e93989b03
         'App\\Helpers\\Response' => __DIR__ . '/../..' . '/app/Helpers/Response.php',
         'App\\Helpers\\Session' => __DIR__ . '/../..' . '/app/Helpers/Session.php',
         'App\\Helpers\\Settings' => __DIR__ . '/../..' . '/app/Helpers/Settings.php',
+        'CodeQasim\\Mailer\\Mailer' => __DIR__ . '/..' . '/codeqasim/mailer/src/Mailer.php',
         'Composer\\InstalledVersions' => __DIR__ . '/..' . '/composer/InstalledVersions.php',
         'Medoo\\Medoo' => __DIR__ . '/..' . '/catfan/medoo/src/Medoo.php',
     );
