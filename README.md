@@ -1,4 +1,4 @@
-# 🚀 PHP Headless CMS – The Fast, Flexible, Open-Source CMS
+# 🚀 PHP Headless – The Fast, Flexible CMS
 
 > **A truly headless, API-first CMS, built with pure PHP, Tailwind CSS, Alpine.js, and MySQL.**  
 > Simple to install, easy to extend, and perfect for solo devs, agencies, or anyone building websites, apps, or digital products.
