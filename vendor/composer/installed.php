@@ -1,0 +1,41 @@
+<?php return array(
+    'root' => array(
+        'name' => 'codeqasim/php-headless-cms',
+        'pretty_version' => '1.0.0+no-version-set',
+        'version' => '1.0.0.0',
+        'reference' => null,
+        'type' => 'project',
+        'install_path' => __DIR__ . '/../../',
+        'aliases' => array(),
+        'dev' => true,
+    ),
+    'versions' => array(
+        'catfan/medoo' => array(
+            'pretty_version' => 'v2.2.0',
+            'version' => '2.2.0.0',
+            'reference' => '347515fe63339387738c5c1c93d1d6726cc9774a',
+            'type' => 'framework',
+            'install_path' => __DIR__ . '/../catfan/medoo',
+            'aliases' => array(),
+            'dev_requirement' => false,
+        ),
+        'codeqasim/php-headless-cms' => array(
+            'pretty_version' => '1.0.0+no-version-set',
+            'version' => '1.0.0.0',
+            'reference' => null,
+            'type' => 'project',
+            'install_path' => __DIR__ . '/../../',
+            'aliases' => array(),
+            'dev_requirement' => false,
+        ),
+        'qaxim/php-router' => array(
+            'pretty_version' => '1.0',
+            'version' => '1.0.0.0',
+            'reference' => '239359e86e0ebb848c827f9700adb9b8bab09748',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../qaxim/php-router',
+            'aliases' => array(),
+            'dev_requirement' => false,
+        ),
+    ),
+);

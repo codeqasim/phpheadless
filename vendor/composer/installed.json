@@ -1,0 +1,140 @@
+{
+    "packages": [
+        {
+            "name": "catfan/medoo",
+            "version": "v2.2.0",
+            "version_normalized": "2.2.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/catfan/Medoo.git",
+                "reference": "347515fe63339387738c5c1c93d1d6726cc9774a"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/catfan/Medoo/zipball/347515fe63339387738c5c1c93d1d6726cc9774a",
+                "reference": "347515fe63339387738c5c1c93d1d6726cc9774a",
+                "shasum": ""
+            },
+            "require": {
+                "ext-pdo": "*",
+                "php": ">=7.3"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^9.0"
+            },
+            "suggest": {
+                "ext-pdo_dblib": "For MSSQL or Sybase database on Linux/UNIX platform",
+                "ext-pdo_mysql": "For MySQL or MariaDB database",
+                "ext-pdo_oci": "For Oracle database",
+                "ext-pdo_pqsql": "For PostgreSQL database",
+                "ext-pdo_sqlite": "For SQLite database",
+                "ext-pdo_sqlsrv": "For MSSQL database on both Window/Liunx platform"
+            },
+            "time": "2025-03-31T07:37:23+00:00",
+            "type": "framework",
+            "installation-source": "source",
+            "autoload": {
+                "psr-4": {
+                    "Medoo\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Angel Lai",
+                    "email": "angel@medoo.in"
+                }
+            ],
+            "description": "The lightweight PHP database framework to accelerate development",
+            "homepage": "https://medoo.in",
+            "keywords": [
+                "database",
+                "database library",
+                "lightweight",
+                "mariadb",
+                "mssql",
+                "mysql",
+                "oracle",
+                "php framework",
+                "postgresql",
+                "sql",
+                "sqlite"
+            ],
+            "support": {
+                "issues": "https://github.com/catfan/Medoo/issues",
+                "source": "https://github.com/catfan/Medoo"
+            },
+            "funding": [
+                {
+                    "url": "https://paypal.me/AngelaonLai",
+                    "type": "custom"
+                },
+                {
+                    "url": "https://opencollective.com/medoo",
+                    "type": "open_collective"
+                }
+            ],
+            "install-path": "../catfan/medoo"
+        },
+        {
+            "name": "qaxim/php-router",
+            "version": "1.0",
+            "version_normalized": "1.0.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/codeqasim/php-router.git",
+                "reference": "239359e86e0ebb848c827f9700adb9b8bab09748"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/codeqasim/php-router/zipball/239359e86e0ebb848c827f9700adb9b8bab09748",
+                "reference": "239359e86e0ebb848c827f9700adb9b8bab09748",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "~4.8"
+            },
+            "time": "2021-02-19T15:00:14+00:00",
+            "type": "library",
+            "installation-source": "source",
+            "autoload": {
+                "psr-0": {
+                    "Router": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Qasim Hussain",
+                    "email": "compoxition@gmail.com",
+                    "homepage": "http://qasimhussain.com/",
+                    "role": "Creator/Developer"
+                }
+            ],
+            "description": "A lightning fast router for PHP",
+            "homepage": "https://github.com/qaxim/php-router",
+            "keywords": [
+                "beutified url",
+                "router",
+                "routing",
+                "url"
+            ],
+            "support": {
+                "issues": "https://github.com/codeqasim/php-router/issues",
+                "source": "https://github.com/codeqasim/php-router/tree/1.0"
+            },
+            "install-path": "../qaxim/php-router"
+        }
+    ],
+    "dev": true,
+    "dev-package-names": []
+}
