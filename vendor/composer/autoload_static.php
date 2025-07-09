@@ -39,6 +39,22 @@ class ComposerStaticInit2e43653d7d6f5a27179c0f8e93989b03
     );
 
     public static $classMap = array (
+        'App\\Controllers\\API\\ContentTypeController' => __DIR__ . '/../..' . '/app/Controllers/API/ContentTypeController.php',
+        'App\\Controllers\\API\\MediaController' => __DIR__ . '/../..' . '/app/Controllers/API/MediaController.php',
+        'App\\Controllers\\Admin\\APIController' => __DIR__ . '/../..' . '/app/Controllers/Admin/APIController.php',
+        'App\\Controllers\\Admin\\AuthController' => __DIR__ . '/../..' . '/app/Controllers/Admin/AuthController.php',
+        'App\\Controllers\\Admin\\ContentController' => __DIR__ . '/../..' . '/app/Controllers/Admin/ContentController.php',
+        'App\\Controllers\\Admin\\ContentTypeController' => __DIR__ . '/../..' . '/app/Controllers/Admin/ContentTypeController.php',
+        'App\\Controllers\\Admin\\DashboardController' => __DIR__ . '/../..' . '/app/Controllers/Admin/DashboardController.php',
+        'App\\Controllers\\Admin\\MediaController' => __DIR__ . '/../..' . '/app/Controllers/Admin/MediaController.php',
+        'App\\Controllers\\Admin\\SettingsController' => __DIR__ . '/../..' . '/app/Controllers/Admin/SettingsController.php',
+        'App\\Controllers\\Install\\InstallController' => __DIR__ . '/../..' . '/app/Controllers/Install/InstallController.php',
+        'App\\Core\\Application' => __DIR__ . '/../..' . '/app/Core/Application.php',
+        'App\\Core\\Config' => __DIR__ . '/../..' . '/app/Core/Config.php',
+        'App\\Core\\Database' => __DIR__ . '/../..' . '/app/Core/Database.php',
+        'App\\Helpers\\Response' => __DIR__ . '/../..' . '/app/Helpers/Response.php',
+        'App\\Helpers\\Session' => __DIR__ . '/../..' . '/app/Helpers/Session.php',
+        'App\\Helpers\\Settings' => __DIR__ . '/../..' . '/app/Helpers/Settings.php',
         'Composer\\InstalledVersions' => __DIR__ . '/..' . '/composer/InstalledVersions.php',
         'Medoo\\Medoo' => __DIR__ . '/..' . '/catfan/medoo/src/Medoo.php',
     );

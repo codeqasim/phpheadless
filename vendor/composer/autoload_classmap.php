@@ -6,6 +6,22 @@ $vendorDir = dirname(__DIR__);
 $baseDir = dirname($vendorDir);
 
 return array(
+    'App\\Controllers\\API\\ContentTypeController' => $baseDir . '/app/Controllers/API/ContentTypeController.php',
+    'App\\Controllers\\API\\MediaController' => $baseDir . '/app/Controllers/API/MediaController.php',
+    'App\\Controllers\\Admin\\APIController' => $baseDir . '/app/Controllers/Admin/APIController.php',
+    'App\\Controllers\\Admin\\AuthController' => $baseDir . '/app/Controllers/Admin/AuthController.php',
+    'App\\Controllers\\Admin\\ContentController' => $baseDir . '/app/Controllers/Admin/ContentController.php',
+    'App\\Controllers\\Admin\\ContentTypeController' => $baseDir . '/app/Controllers/Admin/ContentTypeController.php',
+    'App\\Controllers\\Admin\\DashboardController' => $baseDir . '/app/Controllers/Admin/DashboardController.php',
+    'App\\Controllers\\Admin\\MediaController' => $baseDir . '/app/Controllers/Admin/MediaController.php',
+    'App\\Controllers\\Admin\\SettingsController' => $baseDir . '/app/Controllers/Admin/SettingsController.php',
+    'App\\Controllers\\Install\\InstallController' => $baseDir . '/app/Controllers/Install/InstallController.php',
+    'App\\Core\\Application' => $baseDir . '/app/Core/Application.php',
+    'App\\Core\\Config' => $baseDir . '/app/Core/Config.php',
+    'App\\Core\\Database' => $baseDir . '/app/Core/Database.php',
+    'App\\Helpers\\Response' => $baseDir . '/app/Helpers/Response.php',
+    'App\\Helpers\\Session' => $baseDir . '/app/Helpers/Session.php',
+    'App\\Helpers\\Settings' => $baseDir . '/app/Helpers/Settings.php',
     'Composer\\InstalledVersions' => $vendorDir . '/composer/InstalledVersions.php',
     'Medoo\\Medoo' => $vendorDir . '/catfan/medoo/src/Medoo.php',
 );
